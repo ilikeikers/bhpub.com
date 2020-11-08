@@ -1,0 +1,484 @@
+/* CSS File for Ike Test Website */
+
+/*TODO: Update nav bar and put in own file, update blog header, get content on home page, make blog part look
+pretty */
+
+
+
+/*Master Styles*/
+* {
+    outline: unset;
+}
+
+a {
+    text-decoration: none;
+}
+
+html, 
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0rem;
+    font-family: "Lato", sans-serif;
+    background-color: #30000A;
+}
+ 
+.container {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: #30000A;
+}
+
+
+/* Nav-Bar */
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 0rem;
+}
+
+.overlay a {
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 2.15rem;
+    color: #fffdd0;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #30000A;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 1.25rem;
+    left: 2.8rem;
+    font-size: 3.5rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 6.3rem;
+    background-color: black;
+}
+
+.innernav {
+    width: 97.5%;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    padding: 0 0.72rem;
+    align-items: center;
+    flex-basis: 70rem;
+    height: 6.3rem;
+}
+
+.nav-item {
+    display: flex;
+    flex: 1;
+    line-height: 6.3rem;
+    align-items: center;
+    background-color: black;
+}
+
+.nav-pic {
+    padding: 1rem;
+}
+
+.nav-picbig {
+    display: none;
+}
+
+.nav-item.right {
+    font-size: 1.8rem;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.nav-item.right a:hover, .nav-item.right a:focus {
+    color: #30000a;
+}
+
+.nav-links {
+    display: flex-block;
+    font-size: 1.8rem;
+    padding-left: 0.42rem;
+    color: #fffdd0;
+    text-decoration: none;
+}
+
+.nav-links.left {
+    font-size: 2.7rem;
+}
+
+
+/*Main content styles */
+
+.innercontainer {
+    background-color: #30000a;
+    margin: auto; 
+    margin-top: 0.25rem;
+}
+
+.header {
+    width: 95%;
+    margin: 1rem auto;
+    background-color: black;
+    border: 0.15rem solid black;
+    display: flex-block;
+    justify-content: center;
+    flex-wrap: wrap;    
+    border: 0.15rem solid #fffdd0;
+}
+
+.message {
+    text-align: center;
+    color: #fffdd0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 1.72rem;
+    padding: 1rem 1.5rem;
+    width: 4rem;
+    height: auto;
+    margin: 0.5rem;
+    background-color: #fffdd0;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.button a {
+    color: #30000a;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.button:hover, .button:focus {
+    background-color: #30000a;
+}
+
+.button a:hover, .button a:focus {
+    color: #fffdd0;
+}
+
+.hours {
+    display: flex-block;
+    justify-content: center;
+    text-align: center;
+    width: 95%;
+    margin: 1rem auto;
+    color: white;
+    background-color: black;
+    border: 0.15rem solid #fffdd0;
+}
+
+.hours-list {
+    list-style: none;
+    margin-left: -2.75rem;
+}
+
+.title {
+    color: #fffdd0;
+}
+
+.day {
+    color: #fffdd0;
+}
+
+.centerfold {
+    display: flex-block;
+    color: #fffdd0;
+    justify-content: center;
+    width: 95%;
+    background-color: black;
+    border: 0.15rem solid #fffdd0;
+    margin: 1rem auto;
+}
+
+.intro h2 {
+    text-align: center;
+}
+
+.introcontent {
+    display: flex;
+    margin: 0.35rem;
+    border: 0.35px solid #fffdd0;
+}
+
+.blocktext {
+    text-align: center;
+    width: 45%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.blocktext h3 {
+    width: 85%;
+    padding: 0.5rem;
+    padding-right: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*MAP*/
+.mapcontainer {
+    width: 65%;
+    padding: 0.5rem;
+    padding-left: 0rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: flex-end;
+}
+
+#map {
+    height: 10rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*SLIDESHOW*/
+.slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    height: 24rem;
+    width: 95%;
+    background-color: black;
+    border: 0.15rem solid #fffdd0;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.slide img {
+    width: 97%;
+    height: auto;
+}
+/*Footer*/
+.footer {
+    color: #fffdd0;
+    display: flex;
+    width: 100%;
+    height: 5.7rem;
+    margin-bottom: -0.25rem;
+    background-color: black;
+}
+
+.innerfoot {
+    width: 97.5%;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.72rem;
+    flex-basis: 70rem;
+    height: 5.7rem;
+}
+
+.toplinks {
+    display: flex;
+    padding: 0.15rem;
+}
+
+.links {
+    display: flex;
+    align-self: flex-start;
+    width: 50%;
+}
+
+.foot-links {
+    display: flex-block;
+    font-size: 1.8rem;
+    color: #fffdd0;
+    padding: 0.18rem;
+    text-decoration: none;
+}
+
+.signature {
+    width: 50%;
+    align-self: flex-end;
+    justify-content: right;
+    font-size: 0.75rem;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.18rem;
+}
+
+.bottomlinks {
+    display: flex;
+    margin-bottom: 0.35rem;
+}
+
+.credit {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.1rem;
+    width: 50%;
+    padding: 0.18rem;
+}
+
+.lastupdated {
+    align-self: flex-end;
+    font-size: 0.1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: right;
+    width: 50%;
+    text-align: right;
+    padding: 0.18rem;
+}
+
+.foot-item a:hover, .foot-item a:focus {
+    color: #30000a;
+    background-color: #fffdd0;
+}
+
+.foot-item p a {
+    color: #fffdd0;
+}
+
+/*Small Screen */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 1.25rem}
+    .overlay .closebtn {
+    font-size: 2.5rem;
+    top: 1rem;
+    left: 2.25rem;
+}
+
+@media screen and (min-device-width: 600px) {
+
+    .brand {
+        font-size: 1.5rem;
+    }
+    
+    .nav-links {
+        font-size: 1.5rem;
+        padding-left: 0.47rem;
+    }
+
+    .bignav {
+        height: 4.2rem;
+    }
+
+    .nav-item {
+        line-height: 4.2rem;
+    }
+
+    .nav-pic {
+        display: none;
+    }
+
+    .nav-picbig {
+        display: inline-flex;
+    }
+    
+    .entries-container {
+        border-left: 1.25rem solid black;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-device-width : 750px) {
+    .brand {
+        font-size: 1.5rem;
+    }
+    
+    .nav-links {
+        font-size: 1.5rem;
+        padding-left: 0.85rem;
+    }
+
+
+
+}
+
+/*Full-Screen*/
+@media only screen and (min-device-width : 72rem) {
+    .innercontainer {
+        width: 70rem;
+    }
+
+    .innernav {
+        width: 70rem;
+    }
+
+
+}
+
+
+/* About Page */
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+    color: #F0DDDB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
