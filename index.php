@@ -40,7 +40,7 @@ function initMap() {
             <div class="welcome">
                 <h2 class="message">WELCOME  TO</h2>
                 <h1 class="message">BRAVEHEARTS</h1>
-                <h1 class="message">PUB!</h1>
+                <h1 class="message">PUB</h1>
             </div>
             <div class="buttons">
                 <div class="button"><a href="#MENUS">MENUS</a></div>
