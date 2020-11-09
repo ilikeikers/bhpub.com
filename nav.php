@@ -4,6 +4,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> <i class="bx bxs-x-square"></i> </a>
         
         <div class="overlay-content">
+            <a href="index.php">HOME</a>
             <a href="https://qrco.de/bbhNV1">MENU</a>
             <a href="https://qrco.de/bbhNaY">DRAFT</a>
             <a href="https://qrco.de/bbhO8p">DRINKS</a>

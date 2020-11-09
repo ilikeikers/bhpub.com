@@ -85,7 +85,7 @@ function initMap() {
             <ul class="hours-list">
                 <li class="title"><u><h1>HOURS</h1></u></li>
                 <li class="day"><h2>   SUNDAY    </h2></li>
-                <li class="time"><h3>12:00P-09:00A</h3></li>
+                <li class="time"><h3>12:00P-09:00P</h3></li>
                 <li class="day"><h2>   MONDAY    </h2></li>
                 <li class="time"><h3>11:00A-12:00A</h3></li>
                 <li class="day"><h2>  TUESDAY    </h2></li>

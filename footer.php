@@ -19,7 +19,7 @@
             </div>
             
             <div class="lastupdated foot-item right">
-                <p>Last Updated: 07 November 2020</p>
+                <p>Last Updated: 08 November 2020</p>
             </div>
         </div>
     </div>
