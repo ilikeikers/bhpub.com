@@ -57,9 +57,6 @@ function initMap() {
             <div class="slide"><img src="slideshow/slide_4.jpg"></div>
             <div class="slide"><img src="slideshow/slide_5.jpg"></div>
             <div class="slide"><img src="slideshow/slide_6.jpg"></div>
-            <div class="slide"><img src="slideshow/slide_7.jpg"></div>
-            <div class="slide"><img src="slideshow/slide_8.jpg"></div>
-            <div class="slide"><img src="slideshow/slide_9.jpg"></div>
         </div>
 
         <a name="MENUS"></a>
