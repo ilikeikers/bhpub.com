@@ -1,2 +1,2 @@
 #! /bin/bash
-\cp -r * ../../local/
+\cp -r * ../local/
