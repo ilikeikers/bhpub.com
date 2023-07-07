@@ -10,3 +10,5 @@ but he was kind enough to let me essentially create a landing page for him. It m
 When I left that job, we decided it'd be best that we take it down and just go back to Facebook. 
 
 This is simply here for archival reasons and to take a gander at some bad code if interested. 
+
+It was hosted on Vultr using a Debian Server. It used Nginx as the web server.
